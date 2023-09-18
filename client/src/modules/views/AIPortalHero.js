@@ -22,7 +22,7 @@ function AIPortalHero() {
         }}
       >
         <Typography variant="h4" component="span">
-          Got questions about your car? Need help?
+          Have questions about your car? Need help?
         </Typography>
       </Button>
       <Typography variant="subtitle1" sx={{ my: 3 }}>

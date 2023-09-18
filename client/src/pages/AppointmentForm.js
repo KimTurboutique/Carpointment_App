@@ -145,10 +145,10 @@ export default function MakeAppt() {
           variant="contained"
           size="large"
           sx={{minWidth: 200}}
+          component="a"
           href="/profile"
           >Request Appointment</Button>
       </form>
-
 
     </>
   );

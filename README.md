@@ -15,6 +15,8 @@
 
 ## Motivation for Developement
 
+```Scheduling an auto repair appointment is a stressful task for almost everyone including myself despite working in the automotive field, I've noticed how hard it is to get your vehicle in and out of a repair shop quickly. With the development of this app I am looking forward to helping making this task simplier on both ends, for the customer and also for the mechanic/shop owner.```
+
 ## Tools/Technologies used:
 
 - React
