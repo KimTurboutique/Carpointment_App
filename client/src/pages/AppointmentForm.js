@@ -72,6 +72,7 @@ export default function MakeAppt() {
         }
       })
       console.log(data);
+      window.location.assign('/profile')
     } catch (error) {
       console.log(error)
     }
@@ -146,7 +147,6 @@ export default function MakeAppt() {
           size="large"
           sx={{minWidth: 200}}
           component="a"
-          href="/profile"
           >Request Appointment</Button>
       </form>
 

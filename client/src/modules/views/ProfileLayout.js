@@ -7,13 +7,12 @@ import {
   MDBCardText,
   MDBCardBody,
   MDBCardImage,
-  MDBBreadcrumbItem,
   MDBProgress,
   MDBProgressBar,
   MDBListGroup,
 } from 'mdb-react-ui-kit';
 
-export default function ProfilePage() {
+export default function ProfilePage(props) {
   return (
     <section className="profileSection" style={{ backgroundColor: '#eee' }}>
       <MDBContainer className="py-5">
@@ -87,17 +86,6 @@ export default function ProfilePage() {
             </MDBCard>
 
             <MDBRow>
-              <MDBCol md="6">
-                <MDBCard className="mb-4 mb-md-0">
-                  <MDBCardBody>
-                    <MDBCardText className="mb-4"><span className="text-primary font-italic me-1"></span> Upcoming Appointments</MDBCardText>
-                    <MDBCardText className="mb-1" style={{ fontSize: '.77rem' }}>Oil Change</MDBCardText>
-                    <MDBProgress className="rounded">
-                      <MDBProgressBar width={80} valuemin={0} valuemax={100} />
-                    </MDBProgress>
-                  </MDBCardBody>
-                </MDBCard>
-              </MDBCol>
 
               <MDBCol md="6">
                 <MDBCard className="mb-4 mb-md-0">
