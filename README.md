@@ -6,7 +6,8 @@
 - [Motivation for Development](#motivation-for-developement)
 - [Tools & Technologies used](#toolstechnologies-used)
 - [User Story](#user-story)
-- [Demo](#demo)
+- [Deployed Application](#deployed-application)
+- [Source Code](#source-code)
 - [Acknowledgements](#acknowledgements)
 
 ## Description
@@ -20,18 +21,29 @@
 ## Tools/Technologies used:
 
 - React
-- Design & Styling: Material UI, Fort Awesome
+- Design & Styling: Material UI, MUI Components, MDB.
 - Database Management: MongoDB Compass
+- JWT User Authentication
 - Custom API
 - VSC
+- Heroku
 
 ## User Story
 
-## Demo
+As a busy individual I need an app that I can use to schedule my car’s maintenance appointment and also receive notifications for when my car is ready.
 
-[]()
+## Deployed Application
 
+[Heroku](https://carpointment-e4f8d52722e3.herokuapp.com/)
+
+
+
+## Source Code
+
+[Github](https://github.com/KimTurboutique/Carpointment_App)
 
 ### Acknowledgements
+
+[Developer](https://github.com/KimTurboutique)
 
 I would like to acknowledge Tutor: Meg Meyers for assisting with this project.
