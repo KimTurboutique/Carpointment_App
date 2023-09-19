@@ -70,7 +70,7 @@ export default function ProfilePage() {
                     <MDBCardText>Email</MDBCardText>
                   </MDBCol>
                   <MDBCol sm="9">
-                    <MDBCardText className="text-muted">example@example.com</MDBCardText>
+                    <MDBCardText className="text-muted">Johnsmith@example.com</MDBCardText>
                   </MDBCol>
                 </MDBRow>
             
