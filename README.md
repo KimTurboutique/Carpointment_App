@@ -14,7 +14,7 @@
 
 ```This project was designed with the average vehicle owner in mind i.e: almost everyone! I have designed an app which makes getting your car in and out of the repair shop as stress-free and quickly as possible.```
 
-## Motivation for Developement
+## Motivation for Development
 
 ```Scheduling an auto repair appointment is a stressful task for almost everyone including myself despite working in the automotive field, I've noticed how hard it is to get your vehicle in and out of a repair shop quickly. With the development of this app I am looking forward to helping making this task simplier on both ends, for the customer and also for the mechanic/shop owner.```
 
@@ -35,8 +35,6 @@ As a busy individual I need an app that I can use to schedule my car’s mainten
 ## Deployed Application
 
 [Heroku](https://carpointment-e4f8d52722e3.herokuapp.com/)
-
-
 
 ## Source Code
 
