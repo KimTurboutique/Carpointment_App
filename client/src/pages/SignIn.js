@@ -68,7 +68,7 @@ function SignIn() {
           <Typography variant="body2" align="center">
             {'Not a member yet? '}
             <Link
-              href="/sign-up/"
+              href="/signup"
               align="center"
               underline="always"
             >
