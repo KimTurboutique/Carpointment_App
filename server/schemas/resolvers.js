@@ -8,17 +8,27 @@ const resolvers = {
       return await Car.find({});
     },
     me: async (_, __, context) => {
+
       if (context.user) {
-        return await User.findOne({ _id: context.user._id })
-          .populate({
-            path: 'appointments',
-            populate: {
-              path: 'car'
-            }
-          });
+
+        return await User.findOne({ _id: context.user._id }).populate({
+
+          path: "appointments",options: { sort: {'startDate': -1}},
+
+          populate: {
+
+            path: "car",       
+
+          },
+
+        });
+
       }
+
       throw new AuthenticationError("You must be logged in");
+
     },
+
   },
   Mutation: {
     addUser: async (

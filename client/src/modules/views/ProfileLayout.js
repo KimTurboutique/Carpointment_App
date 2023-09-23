@@ -88,15 +88,6 @@ export default function ProfilePage(props) {
             <MDBRow>
 
               <MDBCol md="6">
-                <MDBCard className="mb-4 mb-md-0">
-                  <MDBCardBody>
-                    <MDBCardText className="mb-4"><span className="text-primary font-italic me-1"></span> Previous Appointments</MDBCardText>
-                    <MDBCardText className="mb-1" style={{ fontSize: '.77rem' }}>Tires and Alignment</MDBCardText>
-                    <MDBProgress className="rounded">
-                      <MDBProgressBar width={80} valuemin={0} valuemax={100} />
-                    </MDBProgress>
-                  </MDBCardBody>
-                </MDBCard>
               </MDBCol>
             </MDBRow>
           </MDBCol>
